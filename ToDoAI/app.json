@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "SimpleDay",
+    "slug": "SimpleDay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/SimpleDayLogo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/SimpleDayLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.simpleday.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/SimpleDayLogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/SimpleDayLogo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "simpleday",
+    "extra": {
+      "eas": {
+        "projectId": "fa15f013-fea5-4196-b557-1b8cd8820771"
+      }
+    }
+  }
+}

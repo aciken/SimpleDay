@@ -1,0 +1,47 @@
+{
+  "name": "simpleday",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-community/datetimepicker": "^8.3.0",
+    "axios": "^1.8.4",
+    "expo": "~52.0.35",
+    "expo-auth-session": "~6.0.3",
+    "expo-av": "^15.0.2",
+    "expo-blur": "^14.0.3",
+    "expo-constants": "~17.0.6",
+    "expo-dev-client": "~5.0.15",
+    "expo-haptics": "^14.0.1",
+    "expo-linear-gradient": "~14.0.2",
+    "expo-linking": "~7.0.5",
+    "expo-random": "^14.0.1",
+    "expo-router": "~4.0.17",
+    "expo-splash-screen": "^0.29.22",
+    "expo-status-bar": "~2.0.1",
+    "expo-web-browser": "~14.0.2",
+    "nativewind": "^2.0.11",
+    "openai": "^4.89.0",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-calendars": "^1.1310.0",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-purchases": "^8.9.1",
+    "react-native-purchases-ui": "^8.9.1",
+    "react-native-safe-area-context": "5.3.0",
+    "react-native-screens": "4.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "tailwindcss": "^3.3.2"
+  },
+  "private": true
+}
