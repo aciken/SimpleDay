@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
 
-mongoose.connect('mongodb://localhost:27017/ToDo')
+mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log('mongodb://localhost:27017/ToDo'))
     .catch(err => console.log(err));
 

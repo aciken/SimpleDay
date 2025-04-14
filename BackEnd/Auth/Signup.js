@@ -8,6 +8,8 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const Signup = async (req, res) => {
     const { name, email, password } = req.body;
 
+    console.log(name, email, password);
+
     const verificationCode = Math.floor(100000 + Math.random() * 900000);
 
 
